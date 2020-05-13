@@ -2,6 +2,7 @@
 
 
 
+
 # address-plugin-british-isles
 
 This is a plugin designed for use with `address-plugin-utils` as part of a general set of plugins. This plugin in particular refers to the Great Britain specific address form.
@@ -25,3 +26,6 @@ as:
 `Sheffield City Centre -(?)> Town`. This is an optional field, and I'd expect the address to work fine without this proviso, but this would be the place for a location within a city but larger than a street.
 `Sheffield -> City`.
 `S3 8PZ -> Post Code`.
+
+## Supported countries
+This plugin currently supports address forms for England, Scotland, Wales and Northern Ireland
