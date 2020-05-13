@@ -8,7 +8,7 @@ This is a plugin designed for use with `address-plugin-utils` as part of a gener
 ## Generic information
 For the generic information about how these plugins operate, please see [here](https://github.com/openlibraryenvironment/address-plugin-generic/blob/master/README.md). (I'd HIGHLY recommend starting there rather than trying to jump in blind here).
 
-## GB-specific details
+## plugin-specific details
 There aren't any magic properties to these fields, but there is a set way to fill them in.
 
 The user is expected to fill out an address such as
