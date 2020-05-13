@@ -20,8 +20,8 @@ Sheffield
 S3 8PZ
 ```
 as:
- `Paradise House -> Building name/number`.
-`35 Paradise St -> Street Address` (Street address number would **not** be expected to be separated into building name/number).
+ `Paradise House -> Building name`.
+`35 Paradise St -> Street Address` (Street address number would **not** be expected to be separated into building name).
 `Sheffield City Centre -(?)> Town`. This is an optional field, and I'd expect the address to work fine without this proviso, but this would be the place for a location within a city but larger than a street.
 `Sheffield -> City`.
 `S3 8PZ -> Post Code`.
