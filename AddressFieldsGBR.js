@@ -15,7 +15,7 @@ class AddressFieldsGBR extends React.Component {
           <Col xs={4} >
             <AddressTextField
               name={name ? `${name}.premise` : "premise"}
-              label={<FormattedMessage id="ui-address-plugin-gbr.premise" />}
+              label={<FormattedMessage id="ui-address-plugin-britishIsles.premise" />}
               component={textFieldComponent}
               initialValue={initialValues.premise}
             />
@@ -23,7 +23,7 @@ class AddressFieldsGBR extends React.Component {
           <Col xs={4} >
             <AddressTextField
               name={name ? `${name}.thoroughfare` : "thoroughfare"}
-              label={<FormattedMessage id="ui-address-plugin-gbr.thoroughfare" />}
+              label={<FormattedMessage id="ui-address-plugin-britishIsles.thoroughfare" />}
               component={textFieldComponent}
               required={true}
               validator={requiredValidator}
@@ -33,7 +33,7 @@ class AddressFieldsGBR extends React.Component {
           <Col xs={4}>
             <AddressTextField
               name={name ? `${name}.postalCodeOrTown` : "postalCodeOrTown"}
-              label={<FormattedMessage id="ui-address-plugin-gbr.postalCodeOrTown" />}
+              label={<FormattedMessage id="ui-address-plugin-britishIsles.postalCodeOrTown" />}
               component={textFieldComponent}
               initialValue={initialValues.postalCodeOrTown}
             />
@@ -43,7 +43,7 @@ class AddressFieldsGBR extends React.Component {
         <Col xs={4}>
             <AddressTextField
               name={name ? `${name}.locality` : "locality"}
-              label={<FormattedMessage id="ui-address-plugin-gbr.locality" />}
+              label={<FormattedMessage id="ui-address-plugin-britishIsles.locality" />}
               component={textFieldComponent}
               required={true}
               validator={requiredValidator}
@@ -53,7 +53,7 @@ class AddressFieldsGBR extends React.Component {
           <Col xs={4} >
             <AddressTextField
               name={name ? `${name}.administrativeArea` : "administrativeArea"}
-              label={<FormattedMessage id="ui-address-plugin-gbr.administrativeArea" />}
+              label={<FormattedMessage id="ui-address-plugin-britishIsles.administrativeArea" />}
               component={textFieldComponent}
               required={true}
               validator={requiredValidator}
@@ -63,7 +63,7 @@ class AddressFieldsGBR extends React.Component {
           <Col xs={4}>
             <AddressTextField
               name={name ? `${name}.postalCode` : "postalCode"}
-              label={<FormattedMessage id="ui-address-plugin-gbr.postalCode" />}
+              label={<FormattedMessage id="ui-address-plugin-britishIsles.postalCode" />}
               component={textFieldComponent}
               required={true}
               validator={requiredValidator}

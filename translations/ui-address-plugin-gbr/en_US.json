@@ -1,8 +1,0 @@
-{
-  "premise": "Building name",
-  "thoroughfare": "Street address",
-  "postalCodeOrTown": "Town",
-  "locality": "City",
-  "administrativeArea": "County",
-  "postalCode": "Post code"
-}

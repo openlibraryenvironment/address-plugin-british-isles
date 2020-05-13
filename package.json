@@ -1,6 +1,6 @@
 {
-  "name": "@folio/address-plugin-gbr",
-  "description": "Plugin to render a Great Britain address form",
+  "name": "@folio/address-plugin-britishIsles",
+  "description": "Plugin to render a British Isles address form",
   "version": "1.0.0",
   "dependencies": {
     "@folio/address-utils": "^1.0.0",
