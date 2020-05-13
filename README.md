@@ -2,7 +2,7 @@
 
 
 
-# address-plugin-britishIsles
+# address-plugin-british-isles
 
 This is a plugin designed for use with `address-plugin-utils` as part of a general set of plugins. This plugin in particular refers to the Great Britain specific address form.
 ## Generic information
