@@ -80,7 +80,7 @@ class AddressFieldsGBR extends React.Component {
               required={true}
               validator={requiredValidator}
               initialValue={initialValues.country}
-              defaultValue={intl.formatMessage({ id: `ui-address-plugin-british-isles.countryCode.${initialValues.countryCode}` })}
+              defaultValue={intl.formatMessage({ id: `ui-address-plugin-british-isles.${initialValues.countryCode}.countryCode` })}
             />
           </Col>
         </Row>
