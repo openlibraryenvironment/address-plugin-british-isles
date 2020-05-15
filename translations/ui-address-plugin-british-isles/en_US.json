@@ -1,8 +1,8 @@
 {
-  "countryCode.GB-ENG": "England",
-  "countryCode.GB-SCT": "Scotland",
-  "countryCode.GB-WLS": "Wales",
-  "countryCode.GB-NIR": "Northern Ireland",
+  "GB-ENG.countryCode": "England",
+  "GB-SCT.countryCode": "Scotland",
+  "GB-WLS.countryCode": "Wales",
+  "GB-NIR.countryCode": "Northern Ireland",
 
   "premise": "Building name",
   "thoroughfare": "Street address",
