@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, injectIntl } from 'react-intl';
 import { Row, Col } from '@folio/stripes/components';
 import { AddressTextField } from '@folio/address-utils';
 
@@ -7,7 +7,7 @@ import backendToFields from './backendToFields';
 
 class AddressFieldsGBR extends React.Component {
   render() {
-    const { name, requiredValidator, savedAddress, textFieldComponent } = this.props;
+    const { intl, name, requiredValidator, savedAddress, textFieldComponent } = this.props;
     const initialValues = backendToFields(savedAddress);
     return (
       <> 
@@ -71,8 +71,21 @@ class AddressFieldsGBR extends React.Component {
             />
           </Col>
         </Row>
+        <Row>
+          <Col xs={12} >
+           <AddressTextField
+              name={name ? `${name}.country` : "country"}
+              label={<FormattedMessage id="ui-address-plugin-british-isles.country" />}
+              component={textFieldComponent}
+              required={true}
+              validator={requiredValidator}
+              initialValue={initialValues.country}
+              defaultValue={intl.formatMessage({ id: `ui-address-plugin-british-isles.countryCode.${initialValues.countryCode}` })}
+            />
+          </Col>
+        </Row>
       </>
     );
   }
 }
-export default AddressFieldsGBR;
+export default injectIntl(AddressFieldsGBR);

@@ -1,8 +1,14 @@
 {
+  "countryCode.GB-ENG": "England",
+  "countryCode.GB-SCT": "Scotland",
+  "countryCode.GB-WLS": "Wales",
+  "countryCode.GB-NIR": "Northern Ireland",
+
   "premise": "Building name",
   "thoroughfare": "Street address",
   "postalCodeOrTown": "Town",
   "locality": "City",
   "administrativeArea": "County",
-  "postalCode": "Post code"
+  "postalCode": "Post code",
+  "country": "Country"
 }
